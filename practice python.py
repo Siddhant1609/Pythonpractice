@@ -1,0 +1,6 @@
+# a = eval(input("Enter the number:-"))
+# b = eval(input("Enter the next number:-"))
+# print( a+b)
+# print(a-b)
+# print (a/b)
+# print(a%b)
