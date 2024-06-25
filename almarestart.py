@@ -85,3 +85,4 @@
 #     if (num%fact == 0) and (fact % 3 == 0):
 #         print(fact)
 
+#??
