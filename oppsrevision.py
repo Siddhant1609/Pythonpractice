@@ -312,17 +312,6 @@ ex = [5,4,6,8,2,1,3,-1,-4,-5,-6,0,0,11,23]
 # print(total)
 
 
-class bankaccount:
-    bank_name = 'SBI'
-    IFSC_code = 'SBIN000000'
-p1 = bankaccount()
-p2 = bankaccount()
 
-print(p1.bank_name)
-print(p2.bank_name)
-
-
-def init(self,aadhar_card_city):
-    
 
 

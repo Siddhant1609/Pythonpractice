@@ -1263,3 +1263,38 @@ import math
 
 # print('hello wrold')
 
+# main_str = "Siddhant Singh"
+#
+# opt_freq = {}
+#
+# for i in main_str:
+#     if i in opt_freq:
+#         opt_freq[i] += 1
+#     else:
+#         opt_freq[i] = 1
+#
+# # printing result
+# print("Count of all characters in Siddhant Singh is :\n "
+#       + str(opt_freq))
+
+
+# # PALINDROMIC SEQUENCE
+# a = int(input("Enter A :"))
+# b = int(input("Enter B :"))
+# operator = input("Enter the Oprator")
+# # c = int(input("Enter C :"))
+#
+# if(a==b==c):
+#     print("Equi")
+# elif( a==b or b==c or c==a):
+#     print("ISO")
+# else:
+#     print("Scln")
+
+#
+# def calculator(c,d):
+#     if(operator == "+"):
+#         return c+d
+#     elif(operator == "-"):
+#         return c-d
+
