@@ -1298,4 +1298,13 @@ import math
 #     elif(operator == "-"):
 #         return c-d
 
-#??
+# def demo():
+#     print("Hello")
+#
+
+# demo()
+
+log = {'/home' : 200 , '/about': 200, '/home product':200, '/home/product/electronic': 404, '/home/product/electronic/compliance': 404}
+for i,j in log.items():
+    if j == 404:
+        print(i)

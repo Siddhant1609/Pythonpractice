@@ -82,7 +82,12 @@
 
 # num = eval(input("Enter the number: "))
 # for fact in range(1, num+1):
-#     if (num%fact == 0) and (fact % 3 == 0):
+#     if (num%fact == 0) and (fact % 1== 0):
 #         print(fact)
 
-#??
+# word= input("Enter the word: ")
+# for i in word:
+#     if i.lower() in "aeiou":
+#         print(f"The word {i} is vowel")
+#     else:
+#         print(f"The word {i} is consonant")
