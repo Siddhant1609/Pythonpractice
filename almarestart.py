@@ -91,3 +91,38 @@
 #         print(f"The word {i} is vowel")
 #     else:
 #         print(f"The word {i} is consonant")
+
+
+# num = int(input("Enter the number: "))
+# fact = 1
+# for i in range (1,num+1):
+#     fact = fact *i
+# print(fact)
+
+#
+# n = int(input("Enter the number: "))
+# n_str = str(n)
+# total = 1
+# for i in n_str:
+#     total *= int(i)
+# print(total)
+
+
+# num = int(input("Enter the number: "))
+#
+# n_str = str(num)
+# total = 0
+# for i in n_str:
+#     if int(i) % 2 == 0:
+#         total = total + int(i)**2
+#     else:
+#         total = total + int(i)**3
+# print(total)
+
+# string = input("Enter the word: ")
+# count = 0
+# for i in string:
+#     if i in 'aeiouAEIOU':
+#         count = count +1
+#
+# print(count)

@@ -1304,7 +1304,39 @@ import math
 
 # demo()
 
-log = {'/home' : 200 , '/about': 200, '/home product':200, '/home/product/electronic': 404, '/home/product/electronic/compliance': 404}
-for i,j in log.items():
-    if j == 404:
-        print(i)
+# log = {'/home' : 200 , '/about': 200, '/home product':200, '/home/product/electronic': 404, '/home/product/electronic/compliance': 404}
+# for i,j in log.items():
+#     if j == 404:
+#         print(i)
+
+
+# num = 20
+# total = 0
+# for i in range(1, num+1):
+#    total += i
+# print(total)
+
+
+# num = 5
+# total = 0
+# for i in range(1, num+1):
+#     total = total + i**2
+# print(total)
+
+# num = 20
+# total = 0
+# for i in range(2, num+1,2):
+#     total = total + i
+# print(total)
+
+# num = 20
+# total = 0
+# for i in range(2, num+1,2):
+#     total = total + 1/i
+# print(total)
+
+# num = 20
+# total = 0
+# for i in range(1, num+1):
+#     total = total + i/i**2
+# print(total)
