@@ -126,3 +126,34 @@
 #         count = count +1
 #
 # print(count)
+
+# num_lst  =[]
+# for i in range (29, 80):
+#     if i %3 == 0:
+#         num_lst.append(i)
+#
+# print(num_lst)
+#
+# word = input("Enter the word: ")
+# output_str = ''
+# for i in word:
+#     if i.lower() in 'aeiou':
+#         output_str = output_str +i
+#
+# print(output_str)
+
+# word  = input()
+# index = eval(input())
+# output = ''
+# for i in index:
+#     output = output + word[i]
+# print(output)
+
+
+
+# ex = [2,32,54,2,31,6,87,98,123,1,2,3,4,5,6]
+# max = ex[0]
+# for i in ex:
+#     if i > max:
+#         max = i
+# print(max)
