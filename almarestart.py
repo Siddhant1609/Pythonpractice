@@ -157,3 +157,63 @@
 #     if i > max:
 #         max = i
 # print(max)
+
+#
+# number = int(input("Enter the number: "))
+# def fact(number):
+#     if number == 0:
+#         fact = 1
+#     else :
+#         fact =
+
+# def repeat_string(s,n):
+#     return (s*n)
+#     return repeat
+#
+# s = input()
+# n = int(input())
+# repeat_string(s,n)
+
+# def cube_root(n=0):
+#     cr = n**(1/3)
+#     return round(cr)
+#
+# cube_root(n=27)
+# cube_root(n=64)
+
+# def list_pow(l,n=1):
+#     op_result = []
+#     for i in l:
+#         op_result.append(i**n)
+#     return op_result
+#
+#     list_pow(l=[1,2,3,4], n=2)
+#     list_pow(l=[1,2,3,4], n=3)
+#
+# ex = ['red','green','white','black','pink','yellow']
+# index_ex = eval(input())
+# op = []
+# for i in range(len(ex)):
+#   if i not in index_ex:
+#     op.append(ex[i])
+# print(op)
+#
+# ex = ['red','green','white','black','pink','yellow']
+# index_ex = eval(input())
+# op = []
+# for i in range(len(ex)):
+#   if i not in index_ex:
+#     op.append(ex[i])
+# print(op)
+
+#
+# def prime (n):
+#   prime_check = True
+#   for i in range(2,n):
+#     if n%i ==0:
+#       prime_check = False
+#       break
+#     return prime_check
+#
+# n = int(input())
+# list(filter(prime,range(1,n+1)))
