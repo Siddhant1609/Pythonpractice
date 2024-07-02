@@ -1340,3 +1340,20 @@ import math
 # for i in range(1, num+1):
 #     total = total + i/i**2
 # print(total)
+
+
+# class macbook:
+#     company_name = 'Apple'
+#     def __init__(self,ram,screen_size, harddisk):
+#         self.ram = ram
+#         self.screen_size = screen_size
+#         self.harddisk = harddisk
+#
+#     def display_info(self):
+#         print(f'The macbook has the ram of {self.ram},GB, Screen_size as {self.screen_size}, harddisk as {self.harddisk}')
+#
+# m1 = macbook(ram= '6GB' , screen_size= 8, harddisk= 256)
+# print(m1.screen_size)
+# print(m1.display_info())
+# m2 = macbook(ram= '8GB', screen_size= 15 , harddisk= 1024)
+# print(m2. display_info())

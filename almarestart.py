@@ -240,19 +240,152 @@
 # print(p2.bank_name)
 # print(p1.aadhar_card)
 # print(p2.aadhar_ca)
+#
+# class BankAccount:
+#     bank_name = 'SBI'
+#     ifsc_code = 'SBIN0000'
+#
+#     def __init__(self, aadhar_card, city):
+#         self.aadhar_card = aadhar_card
+#         self.city = city
+#
+# p1 = BankAccount(aadhar_card='23131313', city='blr')
+# p2 = BankAccount(aadhar_card='54654665', city='mum')
+#
+# print(p1.bank_name)  # Output: SBI
+# print(p2.bank_name)  # Output: SBI
+# print(p1.aadhar_card)  # Output: 23131313
+# print(p2.aadhar_card)  # Output: 54654665
 
-class BankAccount:
-    bank_name = 'SBI'
-    ifsc_code = 'SBIN0000'
+# class house:
+#     house_design = 'urban'
+#     def __init__ (self, no_room, pool_size):
+#         self.no_room  = no_room
+#         self.pool_size = pool_size
+#
+# h1 = house(no_room= 2, pool_size= 500)
+# h2 = house(no_room= 4, pool_size= 200)
+#
+# print(h1.house_design)
+# print(h2.house_design)
+# print(h1.no_room)
+# print(h2.no_room)
 
-    def __init__(self, aadhar_card, city):
-        self.aadhar_card = aadhar_card
-        self.city = city
+# class mackbook:
+#     company_name = 'Apple'
+#     def __init__(self,ram,storage):
+#         self.ram = ram
+#         self.storage = storage
+#
+# mac1 = macbook(ram = '6GB', storage = '256GB' )
+# mac2  = mackbook(ram= '8GB', storage= '512 GB')
+#
+# print(mac1.ram)
+# print(mac2.storage)
 
-p1 = BankAccount(aadhar_card='23131313', city='blr')
-p2 = BankAccount(aadhar_card='54654665', city='mum')
 
-print(p1.bank_name)  # Output: SBI
-print(p2.bank_name)  # Output: SBI
-print(p1.aadhar_card)  # Output: 23131313
-print(p2.aadhar_card)  # Output: 54654665
+# class macbook:
+#     company_name = 'Apple'
+#     def __init__(self,ram,screen_size, harddisk):
+#         self.ram = ram
+#         self.screen_size = screen_size
+#         self.harddisk = harddisk
+#
+# mac1 = macbook(ram = '6GB', screen_size = '32', harddisk= '1TB')
+# mac2 = macbook(ram = '8GB', screen_size = '34', harddisk= '2TB')
+#
+# print(mac1.screen_size)
+# print(mac1.ram)
+# print(mac2.harddisk)
+# print(mac2.ram)
+
+# class macbook:
+#     company_name = 'Apple'
+#     def __init__(self,ram,screen_size, harddisk):
+#         self.ram = ram
+#         self.screen_size = screen_size
+#         self.harddisk = harddisk
+#
+#     def display_info(self):
+#         print(f'The macbook has the ram of {self.ram},GB, Screen_size as {self.screen_size}, harddisk as {self.harddisk}')
+#
+# m1 = macbook(ram= '6GB' , screen_size= 8, harddisk= 256)
+# print(m1.screen_size)
+# print(m1.display_info())
+# m2 = macbook(ram= '8GB', screen_size= 15 , harddisk= 1024)
+# print(m2. display_info())
+
+# class circle:
+#     def __init__(self,radius,pi = 3.14):
+#         self.radius = radius
+#         self.pi = pi
+#
+#     def area(self):
+#         return self.pi * self.radius **2
+#     def perimeter(self):
+#         return 2* self.pi*self.radius
+#
+# c1 = circle(radius=3)
+# print(c1.area())
+# print(c1.perimeter())
+# c2 = circle(radius= 10)
+# print(c2.area())
+# print(c2.perimeter())
+#
+# cir = circle(5)
+# print('Area of circle: ', cir.area())
+# print('Perimeter of circle: ', cir.perimeter())
+
+
+# class Rectangle:
+#     def __init__(self,l,b):
+#         self.length = l
+#         self.bredth = b
+#
+#     def area(self):
+#         """
+#         Output: Area of the rectangle
+#
+#         """
+#         return round(self.length * self.bredth)
+#
+#
+#     def perimeter(self):
+#         return round(2*(self.length + self.bredth))
+#
+#
+#     def diagonal(self):
+#         return round ((self.length ** 2 + self.bredth **2)**(0.5))
+#
+# r1 = Rectangle(l=5,b=3)
+# print(r1.perimeter())
+# print(r1.area())
+# print(r1.diagonal())
+
+# class account:
+#     def __init__(self, balance):
+#         self.balance = balance
+#     def balance_enquiry(self):
+#         print("The current balance in INR ", self.balance)
+#     def deposit(self,d_amount):
+#         self.balance = self.balance + d_amount
+#         print("The new balance in INR ", self.balance)
+#
+#     def withdraw(self,w_amount):
+#         if self.balance < w_amount:
+#             print("Insufficient balance")
+#         else:
+#             self.balance = self.balance_w_amount
+#             print('The new balance in INR', self.balance)
+#
+# almabetter = account(balance= 1000)
+# print(almabetter.balance_enquiry())
+# print(almabetter.deposit(d_amount=500))
+# print(almabetter.withdraw(w_amount=2000))
+# print(almabetter.withdraw(w_amount=1000))
+# print(almabetter.balance_enquiry())
+#
+# alok = account(balance=100)
+# print(alok)
+# print(almabetter.balance_enquiry())
+
