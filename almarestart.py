@@ -197,6 +197,7 @@
 #   if i not in index_ex:
 #     op.append(ex[i])
 # print(op)
+
 #
 # ex = ['red','green','white','black','pink','yellow']
 # index_ex = eval(input())
@@ -217,3 +218,41 @@
 #
 # n = int(input())
 # list(filter(prime,range(1,n+1)))
+
+
+# class bankaccount:
+#     bank_name = 'SBI'
+#     ifsc_code = 'SBIN0000'
+#
+# # p1 = bankaccount()
+# # p2 = bankaccount()
+# #
+# # print(p1.bank_name)
+# # print(p2.bank_name)
+#
+# def __init__ (self,aadhar_card,city):
+#     self.aadhar_card = aadhar_card
+#     self.city = city
+#
+# p1 = bankaccount(aadhar_card = '23131313', city = 'blr')
+# p2 = bankaccount(aadhar_card = '54654665', city = 'mum')
+# print(p1.bank_name)
+# print(p2.bank_name)
+# print(p1.aadhar_card)
+# print(p2.aadhar_ca)
+
+class BankAccount:
+    bank_name = 'SBI'
+    ifsc_code = 'SBIN0000'
+
+    def __init__(self, aadhar_card, city):
+        self.aadhar_card = aadhar_card
+        self.city = city
+
+p1 = BankAccount(aadhar_card='23131313', city='blr')
+p2 = BankAccount(aadhar_card='54654665', city='mum')
+
+print(p1.bank_name)  # Output: SBI
+print(p2.bank_name)  # Output: SBI
+print(p1.aadhar_card)  # Output: 23131313
+print(p2.aadhar_card)  # Output: 54654665
