@@ -389,3 +389,76 @@
 # print(alok)
 # print(almabetter.balance_enquiry())
 
+# class account:
+#     def __init__(self, balance):
+#         self.balance = balance
+#     def balance_enquiry(self):
+#         print("The current balance is INR ",self.balance)
+#
+#     def deposit(self,d_amount):
+#         self.balance = self.balance + d_amount
+#         print('The new balance is INR', self.balance)
+#     def withdraw (self,w_amount):
+#         if self.balance < w_amount:
+#             print('Insufficient balance')
+#         else:
+#             self.balance = (self.balance - w_amount)
+#             print('the new balance is INR', self.balance)
+#
+#
+# john = account(balance= 1000)
+# print(john.balance)
+# john = account(balance = 10000)
+# print(john.balance_enquiry())
+
+#ENCAPSULATION
+# class account:
+#     def __init__(self,balance):
+#         self.__balance = balance
+#     def balance_enquiry(self):
+#         print('The current balance in INR',self.__balance)
+#     def deposit(self,d_amount):
+#         self.__balance = self.__balance + d_amount
+#         print('The new balance is INR', self.__balance)
+#
+#     def withdraw (self,w_amount):
+#         if self.__balance <w_amount:
+#             print("Insufficient Balance")
+#         else:
+#             self.__balance = self.__balance - w_amount
+#             print('The new balance in INR',self.__balance)
+#
+# john = account(balance= 1000)
+# print(john.balance)
+#
+# print(john.balance_enquiry())
+
+
+
+# class account:
+#     def __init__(self, balance):
+#         self.__balance = balance
+#
+#     def balance_enquiry(self):
+#         print('The current balance in INR', self.__balance)
+#
+#     def deposit(self, d_amount):
+#         self.__balance += d_amount
+#         print('The new balance is INR', self.__balance)
+#
+#     def withdraw(self, w_amount):
+#         if self.__balance < w_amount:
+#             print("Insufficient Balance")
+#         else:
+#             self.__balance -= w_amount
+#             print('The new balance in INR', self.__balance)
+#
+# john = account(balance=1000)
+#
+# # This will result in an AttributeError because __balance is private
+# # print(john.balance)
+#
+# # Correct way to check the balance
+# john.balance_enquiry()
+
+
