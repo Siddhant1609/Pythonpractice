@@ -1357,3 +1357,32 @@ import math
 # print(m1.display_info())
 # m2 = macbook(ram= '8GB', screen_size= 15 , harddisk= 1024)
 # print(m2. display_info())
+
+# tpl = (10,34.45, 68,'jonshon',"jakson",True  )
+# print(tpl)
+# print(tpl[0])
+# print(tpl[1])
+# print(tpl[-1])
+# print(tpl[::-1])
+# print(type(tpl))
+#
+# tpl2 = (456,'natak', 'nautanki na karoo', 'chal be hawa ane de')
+# print(type(tpl2))
+# print(tpl[1::])
+# print(len(tpl))
+# print(len(tpl2))
+# # NESTED TUPLE
+# tpl3 = (tpl  + tpl2)
+# print(tpl3)
+# print(len(tpl3))
+# print(tpl3[0])
+# print(tpl[0])
+# print(tpl3[::-1])
+
+
+# a = eval(input("Enter the number:-"))
+# b = eval(input("Enter the next number:-"))
+# print( a+b)
+# print(a-b)
+# print (a/b)
+# print(a%b)

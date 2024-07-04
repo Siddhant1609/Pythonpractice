@@ -91,15 +91,15 @@
 
 #Length of Last Word - Algorithm
 
-def length_of_lastword(A):
-    arr = A.split(' ')
-    size = len(arr)
-    if (size==1):
-        return len(A)
-
-    last_word = arr[-1]
-    print(last_word)
-
-
-A = 'hello almabetter'
-print(length_of_lastword(A))
+# def length_of_lastword(A):
+#     arr = A.split(' ')
+#     size = len(arr)
+#     if (size==1):
+#         return len(A)
+#
+#     last_word = arr[-1]
+#     print(last_word)
+#
+#
+# A = 'hello almabetter'
+# print(length_of_lastword(A))
