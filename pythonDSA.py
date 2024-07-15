@@ -103,3 +103,194 @@
 #
 # A = 'hello almabetter'
 # print(length_of_lastword(A))
+
+
+                                                    #A. REVERSE OF AN ARRAY
+#                                                    1. def reverse_array_extra_array(arr):
+#     reversed_arr = arr[::-1]
+#
+#     # Print reversed array
+#     print("Reversed Array:", end=" ")
+#     for i in reversed_arr:
+#         print(i, end=" ")
+#
+# # Example usage:
+# original_arr = [1, 2, 3, 4, 5]
+# reverse_array_extra_array(original_arr)
+
+#                                               2.  array reverse using a loop
+# def reverseList(A,start,end):
+#     while start < end:
+#         A[start], A[end] = A[end],A[start]
+#         start +=1
+#         end -=1
+#
+# A = [1,2,3,4,5,6]
+# print(A)
+# reverseList(A,0,5)
+# print("Reversed list is: ",A)
+
+#                                               3. Array Reverse Inbuilt Methods (In-place):
+# original_array = [1,2,4,5,6,6,7,8,8,9]
+# rev_arry = list(reversed(original_array))
+# print(rev_arry)
+
+#                                               4.  Array Reverse Recursion (In-place or Non In-place):
+# def reverselist(A,start, end):
+#     if start >= end:
+#         return
+#     A[start],A[end] = A[end], A[start]
+#     reverselist(A,start+1,end-1)
+#
+# A = [1,2,3,4,5,6]
+# print(A)
+# reverselist(A,0,5)
+# print("Reversed list is: ", A)
+
+#                                               5. Array Reverse Stack (Non In-place):
+
+# def reverse_arrayy(arr):
+#     stack = []
+#     for element in arr:
+#         stack.append(element)
+#
+#     for i in range(len(arr)):
+#         arr[i] = stack.pop()
+#
+# arr = [1,2,3,4,5,6,7]
+# reverse_arrayy(arr)
+# print("Reversed Array:", arr)
+
+#                                                   B. find maximum and minimum number of an array
+#                                                   1. USING MINIMUM NUMBER OF THE COMPARISON
+# def set_mini(A):
+#     mini = float('inf')
+#     for num in A:
+#         if num<mini:
+#             mini = num
+#     return  mini
+#
+# def set_max(A):
+#     max = float('-inf')
+#     for num in A:
+#         if num > max:
+#             max = num
+#     return max
+#
+# if __name__ == "__main__":
+#     A = [4,9,6,5,2,3]
+#     N = len(A)
+#     print("Minimum element is:", set_mini(A))
+#     print("Maximum element is:", set_max(A))
+
+#                                                       2. Maximum and minimum of an array using Sorting:
+# def getMinMax(arr):
+#     arr.sort()
+#     minmax = {'min':arr[0],'max':arr[-1]}
+#     return minmax
+#
+# arr = [1000,11, 445,1,330,3000]
+# minmax = getMinMax(arr)
+# print('Minimum element is: ',minmax['min'])
+# print('Maximum element is:', minmax['max'])
+
+#                                                       3.MAXIMUM AND MINIMUM OF AN ARRAY USING, LINEAR SEARCH
+# class pair:
+#     def __init__(self):
+#         self.min = 0
+#         self.max = 0
+#     def getMinMax(arr:list, n:int) -> pair:
+#         minmax = pair()
+#     if n==1:
+#         minmax.max == max[0]
+#         minmax.min == arr[0]
+#         return getMinMax()
+#     if arr[0]> arr[1]:
+#         minmax.max = arr[0]
+#         minmax.min = arr[1]
+#
+#     else:
+#         minmax.max = arr[1]
+#         minmax.min = arr[0]
+#
+#     for i in range(2,n):
+#         if arr[i] > minmax.max:
+#             minmax.max = arr[i]
+#         elif arr[i] < minmax.min:
+#             minmax.min = arr[i]
+#     return minmax
+#
+#
+# if __name__ == "__main__"
+#     arr = [1000,11,445,1,330,3000]
+#     arr.size = 6
+#     minmax = getMinMax(arr,arr_size)
+#     print("Minimum element is", minmax.min)
+#     print("Maximum element is", minmax.max)
+# class Pair:
+#  def __init__(self):
+#    self.min = 0
+#    self.max = 0
+#  def getMinMax(arr:list,n: int) -> Pair:
+#      minmax = Pair()
+#      if n == 1:
+#         minmax.max = arr[0]
+#         minmax.min = arr[0]
+#         return minmax
+#
+#      if arr[0] > arr[1]:
+#          minmax.max = arr[0]
+#          minmax.min = arr[1]
+#      else:
+#          minmax.max = arr[1]
+#          minmax.min = arr[0]
+#      for i in range(2,n):
+#          if arr[i] > minmax.max:
+#              minmax.max = arr[i]
+#          elif arr[i] < minmax.min:
+#              minmax.min = arr[i]
+#
+#      return minmax
+#
+#
+#
+# if __name__ == "__main__":
+#     arr = [1000,11,445,1,330,3000]
+#     arr_size = 6  # Correcting the variable name
+#     minmax = getMinMax(arr,arr_size)
+#     print("Minimum element is",minmax.min)
+#     print("Maximum element is",minmax.max)
+
+
+
+# Python3 program to find K'th smallest
+# element
+
+# Function to return K'th smallest
+# element in a given array
+
+
+# def kthSmallest(arr, N, K):
+#
+#     # Sort the given array
+#     arr.sort()
+#
+#     # Return k'th element in the
+#     # sorted array
+#     return arr[K-1]
+#
+#
+# # Driver code
+# if __name__ == '__main__':
+#     arr = [12, 3, 5, 7, 19]
+#     N = len(arr)
+#     K = 2
+#
+#     # Function call
+#     print("K'th smallest element is",
+#           kthSmallest(arr, N, K))
+
+
+
+
+
